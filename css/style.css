@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #DCC9BC;
+}
+
+nav{
+    background-color: #F9F6F1;
+    height: 80px;
+}
+
+.navigatie{
+    background-color: orange;
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
