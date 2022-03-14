@@ -8,14 +8,38 @@ body{
     background-color: #DCC9BC;
 }
 
+.logo{
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
 nav{
     background-color: #F9F6F1;
-    height: 80px;
+    height: 90px;
+}
+
+.navigaty{
+    width: 100%;
+    height: 100%;
 }
 
 .navigatie{
-    background-color: orange;
+    padding-left: 50px;
+    color: black;
     text-decoration: none;
-    padding: 5px;
-    color: white;
+}
+
+.huisfoto{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.foto1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 600px;
+    width: 90%;
+
 }
