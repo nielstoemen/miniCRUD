@@ -13,7 +13,7 @@
         <img src="image/huis.jpg" class="huisfoto" width="40px" height="40px">
         <button class="buttonnav"><a href="index.php" class="navigatie">Home</a></button>
         <button class="buttonnav"><a href="menu.php" class="navigatie">Menu</a></button>
-        <button class="buttonnav"><a href="nieuws.php" class="navigatie">Nieuws</a></button>
+        <button class="buttonnav"><a href="voordeelpas.php" class="navigatie">Voordeelpas</a></button>
         <button class="buttonnav"><a href="contact.php" class="navigatie">Contact</a></button>
     </nav>
 </body>

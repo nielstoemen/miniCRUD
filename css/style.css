@@ -81,6 +81,12 @@ nav{
     padding: 2%;
 }
 
+.voordeelpasinfo{
+    background-color: #c9b4a7;
+    height: auto;
+    width: auto;
+}
+
 .contactform{
     width: 50%;
     margin: auto;
