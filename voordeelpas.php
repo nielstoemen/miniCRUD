@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<img src="image/logo.png" class="logo">
     <nav>
         <img src="image/huis.jpg" class="huisfoto" width="40px" height="40px">
         <button class="buttonnav"><a href="index.php" class="navigatie">Home</a></button>
@@ -15,16 +16,23 @@
         <button class="buttonnav"><a href="voordeelpas.php" class="navigatie">Voordeelpas</a></button>
         <button class="buttonnav"><a href="contact.php" class="navigatie">Contact</a></button>
     </nav>
-    <style>
-        body{
-            background-image: url('image/burger4.jpg');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: 100% 100%;
-            }
-    </style>
-    <div class="voordeelpasinfo">
-        <p>test</p>
+    <div class=voordeelpashoofd>
+        <style>
+            body{
+                background-image: url('image/burger4.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+                }
+        </style>
+        <div class="voordeelpasinfo">
+            <div class="voordeelfoto">
+                <img src="image/actie1.jpg">
+            </div>
+            <div class="voordeelpastekst">
+                <p>Met de voordeelpas van T vosje krijgt u bij al uw aankomen 5% korting. Uw voordeelpas kunt u halen bij ons in T vosje. Hierna activeert u uw voordeelpas en kunt u genieten van een heerlijk frietje met 5% korting. Als u verder nog vragen heeft of info wil kunt u altijd bij onze medewerkers terecht.</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>

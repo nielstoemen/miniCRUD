@@ -39,11 +39,24 @@
        ?>
 
     <div class="contactform">
+        <div class="contact">
         <form action="#" method="post" class="forum">
-            <label>Voornaam:</label> <br>
-            <input name="fname" placeholder="Voornaam"> <br>
+            <label class="form">Voornaam:</label> <br>
+            <input class="form" name="fname" placeholder="Voornaam"> <br>
+            <label class="form">Achternaam:</label> <br>
+            <input class="form" name="lname" placeholder="Achternaam"> <br>
+            <label class="form">Uw nummer:</label> <br>
+            <input class="form" name="nummer" placeholder="nummer"> <br>
         <input id="submit" name="submit" type="submit" value="Submit">
         </form>
+        </div>
+        <div class="infoform">
+            <h4>Contact</h4>
+            <p>Voer hier uw gegevens in en wij zullen zo snel mogenlijk reageren op uw vraag.</p>
+        </div>
+    </div>
+    <div class="fotocontact">
+        <img src="image/contact-title.jpg" class="contactfoto">
     </div>
 </body>
 </html>

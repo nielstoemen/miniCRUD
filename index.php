@@ -33,6 +33,11 @@
                 <p class="geschiedenis2">De basis van T vosje is gezet in 1993 door Ad en Gerda Vos. Hierna hebben zij het overgedragen aan Peter en Dorien Vos. Toen T vosje eenmaal een sucses werd heeft de kleinzoon van Peter en Dorien Vos uitgebreid naar het derde filiaal. Hierna is T vosje uitgegroeid tot de lekkere snackbar die wij nu kennen.</p>
             </div>
         </div>
+    <footer>
+        <h3 class="footertekst">Openingstijden</h3>
+        <p class="footertekst">Dinsdag t/m zondag 11:30 – 21:00u</p>
+        <p class="footertekst">Op maandag zijn wij helaas gesloten</p>
+    </footer>
     </main>
 </body> 
 </html>
