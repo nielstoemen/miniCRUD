@@ -17,5 +17,23 @@
         <button class="buttonnav"><a href="voordeelpas.php" class="navigatie">Voordeelpas</a></button>
         <button class="buttonnav"><a href="contact.php" class="navigatie">Contact</a></button>
     </nav>
+
+    <?php
+        include_once 'includes/connect.php';
+
+        $sql = "SELECT * FROM menu";
+        $stmt = $connect->prepare($sql);
+        $stmt->execute();
+        $result = $stmt->fetchALL();
+
+        var_dump($result);
+        echo $result[0]['titel'];
+
+        foreach ($result as $menu) {
+            echo "$menu <br>";
+          }
+    ?>
+
+
 </body>
 </html>
