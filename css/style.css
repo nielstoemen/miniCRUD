@@ -36,12 +36,17 @@ nav{
 
 footer{
     background-color: #cdb297;
-    padding: 10px;
+    padding: 50px;
+    display: flex;
 }
 
 .footertekst{
     margin-left: 5%;
     padding: 3px;
+}
+
+.socials{
+    width: 30%;
 }
 
 .foto1{
@@ -89,6 +94,24 @@ footer{
 
 .geschiedenis2{
     padding: 2%;
+}
+
+.menuhouder{
+    margin: 20px;
+    background-color: #c9b4a7;
+    padding: 5px;
+    width: 50%;
+}
+
+.ijsmenu{
+    margin: 20px;
+    background-color: #c9b4a7;
+    padding: 5px;
+    width: 50%;
+}
+
+.menunaam{
+    margin-left: 40%;
 }
 
 .voordeelpasinfo{
