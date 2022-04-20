@@ -12,7 +12,7 @@
 <body>
     <img src="image/logo.png" class="logo">
     <nav>
-        <img src="image/huis.jpg" class="huisfoto" width="40px" height="40px">
+        <a href="index.php"><img src="image/huis.jpg" class="huisfoto" width="40px" height="40px"></a>
         <button class="buttonnav"><a href="index.php" class="navigatie">Home</a></button>
         <button class="buttonnav"><a href="menu.php" class="navigatie">Menu</a></button>
         <button class="buttonnav"><a href="voordeelpas.php" class="navigatie">Voordeelpas</a></button>

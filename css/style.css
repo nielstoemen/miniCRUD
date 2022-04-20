@@ -38,11 +38,20 @@ footer{
     background-color: #cdb297;
     padding: 50px;
     display: flex;
+    width: 100%;
 }
 
 .footertekst{
     margin-left: 5%;
     padding: 3px;
+}
+
+.opening{
+    width: 33%;
+}
+
+.adres{
+    width: 33%;
 }
 
 .socials{
