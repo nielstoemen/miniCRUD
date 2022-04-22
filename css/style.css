@@ -8,6 +8,11 @@ body{
     background-color: #DCC9BC;
 }
 
+.voordeelstyle{
+    height: 100vh;
+    width: 100%;
+}
+
 .logo{
     margin-left: 50px;
     margin-top: 5px;
@@ -39,6 +44,7 @@ footer{
     padding: 50px;
     display: flex;
     width: 100%;
+    margin-bottom: 0px;
 }
 
 .footertekst{
@@ -168,4 +174,13 @@ footer{
 .contactfoto{
     width: 100%;
     height: 20%;
+}
+
+input{
+    width: 60%;
+    background-color: #d9c5b1;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 3px;
+    margin: 5px;
 }

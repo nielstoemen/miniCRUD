@@ -18,7 +18,6 @@
         <button class="buttonnav"><a href="contact.php" class="navigatie">Contact</a></button>
     </nav>
 
-
     <div class="menuhouder">
         <h3 class="menunaam">menu:</h3>
     <?php
@@ -30,24 +29,11 @@
         $result = $stmt->fetchALL();
 
         foreach ($result as $menu) {
-            echo $menu['titel'] . ':' . ' ' . $menu['beschrijving'] . "<br>";
+            echo $menu['titel'] . ':' . ' ' . $menu['beschrijving'] . '...........€' . $menu['prijs'] . "<br>";
             echo "<div class='prijskaartje'></div>";
         }
     ?>
     </div>
-    <div class="ijsmenu">
-    <?php
-        include_once 'includes/connect.php';
-
-        $sql = "SELECT * FROM ijs";
-        $stmt = $connect->prepare($sql);
-        $stmt->execute();
-        $result = $stmt->fetchALL();
-
-        foreach ($result as $menu) {
-            echo $menu['titel'] . ':' . ' ' . $menu['beschrijving'] ;
-        }
-    ?>
     </div>
     <footer>
         <div class="opening">

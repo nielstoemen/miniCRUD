@@ -47,7 +47,7 @@
             <input class="form" name="lname" placeholder="Achternaam"> <br>
             <label class="form">Uw nummer:</label> <br>
             <input class="form" name="nummer" placeholder="nummer"> <br>
-        <input id="submit" name="submit" type="submit" value="Submit">
+        <input id="submit" name="submit" type="submit" value="Submit" class="submitbutton">
         </form>
         </div>
         <div class="infoform">

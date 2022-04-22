@@ -11,38 +11,33 @@
     <link rel="stylesheet" href="css/adminstyle.css">
 </head>
 <body>
-        <?php
+                <?php
                 include_once 'includes/connect.php';
-                include_once 'includes/delete.php';
 
                 $sql = "SELECT * FROM menu";
                 $stmt = $connect->prepare($sql);
                 $stmt->execute();
                 $result = $stmt->fetchALL();
+                ?>
 
-                echo "<table>";
-                foreach ($result as $menu) {
-                    echo "<tr>" . "<th>" . $menu['titel'] . ':' . ' ' . $menu['beschrijving']. '..........€' . $menu['prijs'] . "</th>" .  "</tr>";
-                    echo "<div class='prijskaartje'></div>";
-                }
-                echo "</table>";
-            ?>
-        <?php
-                include_once 'includes/connect.php';
-                include_once 'includes/delete.php';
+                <table>
+                <?php
+                foreach ($result as $menu) 
+                { ?>
+                     <tr>
+                         <th>
+                         <?php 
+                            echo $menu['titel'] . ':' . ' ' . $menu['beschrijving'] . '..........€' . $menu['prijs'];
+                         ?> 
+                         <a href="etendetail.php?id=<?php echo $menu['id']; ?>">Meer informatie</a></th> </tr>
+                <?php 
+            } ?>
+            </table>
 
-                $sql = "SELECT * FROM ijs";
-                $stmt = $connect->prepare($sql);
-                $stmt->execute();
-                $result = $stmt->fetchALL();
+            <a href="aanmaken.php">aanmaken</a>
 
-                echo "<table>";
-                foreach ($result as $menu) {
-                    echo "<tr>" . "<th>" . $menu['titel'] . ':' . ' ' . $menu['beschrijving']. '..........€' . $menu['prijs'] . "</th>". "<input type='submit' name='delete-button' value='delete'/>" . "</tr>";
-                }
-                echo "</table>";
-            ?>
-    <!-- Link aanmaken naar includes/logout.php -->
+        
+            
     <br><a href="includes/logout.php">logout</a>
 </body>
 </html>
