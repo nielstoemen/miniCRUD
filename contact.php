@@ -22,7 +22,7 @@
             $fname = $_POST['fname'];
             $from = 'From: My Contact Form';
             $to = 'nielstoemen@gmail.com';
-            $subject = 'Wassup?';
+            $subject = 'contactmail';
     
             $body = "From: $fname\n";
     
@@ -34,10 +34,7 @@
                 }
             }
        }
-
-
        ?>
-
     <div class="contactform">
         <div class="contact">
         <form action="#" method="post" class="forum">

@@ -30,10 +30,10 @@
 
         foreach ($result as $menu) {
             echo $menu['titel'] . ':' . ' ' . $menu['beschrijving'] . '...........€' . $menu['prijs'] . "<br>";
-            echo "<div class='prijskaartje'></div>";
         }
     ?>
     </div>
+        <img src="image/burger3.jpg" class="menufotoburger">
     </div>
     <footer>
         <div class="opening">

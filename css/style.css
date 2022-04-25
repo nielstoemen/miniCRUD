@@ -116,17 +116,17 @@ footer{
     background-color: #c9b4a7;
     padding: 5px;
     width: 50%;
-}
-
-.ijsmenu{
-    margin: 20px;
-    background-color: #c9b4a7;
-    padding: 5px;
-    width: 50%;
+    display: inline-block;
 }
 
 .menunaam{
     margin-left: 40%;
+}
+
+.menufotoburger{
+    height: 300px;
+    width: 40%;
+    margin-top: 1%;
 }
 
 .voordeelpasinfo{
